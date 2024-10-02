@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🚀 InfiniteXplore",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "zh-CN",
+    baseUrl: "infinitexplore.top",
+    ignorePatterns: ["private", "templates", ".obsidian", "Attachments", "Diary", "Drawio", "Templates", "quartz-config"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
